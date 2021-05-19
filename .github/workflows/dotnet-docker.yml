@@ -1,4 +1,4 @@
-name: .NET
+name: demo-api-docker-build
 
 on:
   push:
