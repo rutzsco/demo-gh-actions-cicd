@@ -1,3 +1,3 @@
 # demo-gh-actions-cicd
 
-V1
+V2
