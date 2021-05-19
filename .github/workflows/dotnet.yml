@@ -10,9 +10,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    env:
-      workingDirectory: ./Demo.API
-
+    defaults:
+      run:
+        working-directory: ./Demo.API
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET
